@@ -1,0 +1,1 @@
+ffmpeg -filter_complex_script video.txt -t 30 -c:v libx264 -pix_fmt yuv420p output.mp4
